@@ -25,7 +25,7 @@ The model aims to assist healthcare professionals by analyzing EEG signals and d
 - **Python (NumPy, SciPy, TensorFlow, Sklearn)**:  
   Used for advanced data analysis, feature extraction, and training the neural network.
 
-![Alt Preprocessed EEG](Processed_EGG.png)
+![Alt Preprocessed EEG](Processed_EEG.png)
 
 *Figure 1. Recording of neural activity of an encephalography after preprocessing*
 
