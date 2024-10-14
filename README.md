@@ -25,9 +25,13 @@ The model aims to assist healthcare professionals by analyzing EEG signals and d
 - **Python (NumPy, SciPy, TensorFlow, Sklearn)**:  
   Used for advanced data analysis, feature extraction, and training the neural network.
 
+![Alt Raw EEG](Raw_EEG.png)
+
+*Figure 1. Recording of neural activity of an encephalography before preprocessing.*
+
 ![Alt Preprocessed EEG](Processed_EEG.png)
 
-*Figure 1. Recording of neural activity of an encephalography after preprocessing*
+*Figure 2. Recording of neural activity of an encephalography after preprocessing.*
 
 ## Results
 - The EEG preprocessing in MATLAB was successful. However, the classification model achieved only basic accuracy, which is insufficient for practical implementation. Despite this, the approach marks a step forward in exploring research options within this field. The use of neural networks is justified, with the expectation that expanding the dataset will lead to a more robust and reliable model in the future. This reinforces the potential of machine learning techniques in advancing Alzheimer's diagnosis.
