@@ -25,28 +25,11 @@ The model aims to assist healthcare professionals by analyzing EEG signals and d
 - **Python (NumPy, SciPy, TensorFlow, Sklearn)**:  
   Used for advanced data analysis, feature extraction, and training the neural network.
 
-## How to Run the Project
-### Requirements
-- MATLAB (with EEGLAB)
-- Python 3.x
-- Required Python libraries: `numpy`, `scipy`, `tensorflow`, `sklearn`
-
-### Steps
-1. Preprocess the EEG data in MATLAB using the provided scripts.
-2. Save the preprocessed data in `.mat` format.
-3. Run the Python script to extract features and train the CNN model.
-4. Evaluate the model's performance using the classification report and confusion matrix.
-
 ## Results
-- The model achieved a basic classification accuracy, but the results highlight the need for more extensive EEG datasets to improve performance. Future iterations will focus on obtaining more data and refining the model.
+- The EEG preprocessing in MATLAB was successful. However, the classification model achieved only basic accuracy, which is insufficient for practical implementation. Despite this, the approach marks a step forward in exploring research options within this field. The use of neural networks is justified, with the expectation that expanding the dataset will lead to a more robust and reliable model in the future. This reinforces the potential of machine learning techniques in advancing Alzheimer's diagnosis.
+
 
 ## Future Work
 - Expand the dataset to include more EEG samples, particularly for Alzheimer's patients.
 - Improve model accuracy by tuning hyperparameters and trying alternative machine learning models.
 - Develop an interactive interface for real-time diagnosis visualization.
-
-## Contributions
-Contributions to improve the model's accuracy or suggestions for alternative methods are welcome. Please submit a pull request or open an issue for discussion.
-
-## License
-This project is licensed under the MIT License.
